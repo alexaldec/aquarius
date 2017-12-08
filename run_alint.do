@@ -1,3 +1,3 @@
-workspace.project.createfromdisk -name aquarius {$env(WORKSPACE)}
+workspace.project.createfromdisk -name aquarius .
 project.run
 project.report.violations
